@@ -17,5 +17,19 @@ div class="container-fluid ">
                 <p><strong> <em>Name of the author is required</em></strong></p>
             </div>
             
+        </div>
+        <div class="form-group">
+            <label for="quote" class="labels">Quote</label>
+            <textarea id="quote" cols="38" rows="5" required [(ngModel)]="newQuote.quote" name="quote" #quote='ngModel' class="form-control"></textarea>
+            <div [hidden]="quote.valid || quote.pristine" class="alert alert-danger"   >
+                <p><strong> <em>Please  the quote</em></strong></p>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="post" class="labels">Post Date</label>
+            <input type="date" required class="form-control" id="post" [(ngModel)]="newQuote.postDate" name="postDate" #postDate='ngModel'> 
+            <div [hidden]="postDate.valid || postDate.pristine" class="alert alert-danger">
+                <p><strong> <em>Post date is required</em></strong></p>
+            </div>
        
 </div>
