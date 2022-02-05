@@ -1,0 +1,21 @@
+<hr>
+<div>
+<p><span class="author">Author:</span> <span id="authors" >{{quote.author}}</span> <br>
+  </p>
+ <div> <p id="quote">"{{quote.quote}}"</p></div>
+ <div class="view">View Date: {{quote.currentDate|date}}</div>
+</div>
+<div class="votes">
+  <div class="upvote">
+    <p id="upvote">{{quote.upvote}}</p>
+    <button class="btn btn-success" (click)='upvote()'>Upvote</button>
+  </div>
+  <div class="downvote">
+    <p id="downvote">{{quote.downvote}}</p>
+    <button class="btn btn-warning" (click)='downvote()'>Downvote</button>
+  </div>
+</div>
+
+<div><p class="p">This post has been posted for the last {{quote.postDate|datePipe}} days. </p></div>
+<button (click)='quoteDelete(true)' class="btn btn-outline-danger">Delete Quote</button>
+
