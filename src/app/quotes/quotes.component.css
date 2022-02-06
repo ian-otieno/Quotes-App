@@ -1,0 +1,42 @@
+.container-fluid{
+    background-color: pink;
+    background-attachment: fixed;
+    padding-left: 10px;
+
+}
+.card{
+    padding-left: 20px;
+    background-color:rgba(33, 218, 95, 0.822);
+    opacity: 1;
+    color: brown;
+}
+h1{
+    text-align: center;
+    background-color: rgb(33,218,95,0.822);
+    padding: 25px;
+    color: gold;
+    font-weight: bolder;
+}
+h2{
+    padding: 15px;
+    background-color: blue;
+    color: gold;
+    font-weight: bolder;
+    text-align: center
+    
+
+}
+
+.warning{
+    position: relative;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bolder;
+}
+.ft{
+    padding: 25px;
+    background-color: rgb(33,218,95,0.822);
+    text-align: center;
+}
