@@ -16,7 +16,11 @@ export class QuotesComponent implements OnInit {
     new Quotes("Denis Kahangi", "Aesop", "Never trust the advice of a man in difficulties.", new Date(2019,0,1), 0, 0, new Date()),
     new Quotes ("Pascal Owili", "Abraham Lincoln", "A house devided against itself cannot stand.", new Date(2020,1,15), 0 , 0, new Date())
  ];
- 
+ toggleQuotes(index:any){
+  this.quotes[index].showQuote=!this.quotes[index].showQuote
+
+}
+
   constructor() { }
 
   ngOnInit(): void {
