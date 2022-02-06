@@ -28,7 +28,12 @@ deleteQuote(isRead:any, index:any){
     }
   }
 }
-
+addNewQuote(quote:any){
+  let quoteLength=this.quotes.length;
+  quote.name=quote.name;
+  quote.postDate=new Date(quote.postDate)
+  this.quotes.push(quote)
+}
   constructor() { }
 
   ngOnInit(): void {
