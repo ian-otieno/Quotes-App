@@ -17,6 +17,12 @@
           </div>
         </div>
       </div>
-     
-    </footer>   
+      <div class="col-md-6">
+        <app-quotes-form (addQuote)="addNewQuote($event)"></app-quotes-form>
+      </div>
+    </div>
+    <div class="warning">
+      <p *ngIf='quotes.length < 6'>Please have at-least six quotes.</p>
+    </div>
+   
 </div>
