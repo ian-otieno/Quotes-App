@@ -9,7 +9,7 @@
           <div *ngFor='let quote of quotes let i=index'><hr>
             <div>
               <h4>Posted by:<span class="quoteName"> {{quote.name}}</span></h4>This qoute was posted on {{quote.postDate|date}}.
-              <button class="btn btn-primary" (click)="toggleQuotes(i)">Show Quotes</button>
+              <button class="btn btn-primary" (click)="toggleQuotes(i)">Show Quote</button>
             </div>
             <div *ngIf='quote.showQuote'>
               <app-quote-details [quote]='quote' (isRead)='deleteQuote($event, i)'></app-quote-details>
