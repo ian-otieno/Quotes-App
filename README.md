@@ -67,7 +67,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 ## Known Bugs
-* highlight directive property does not work properly
+No known bugs
 
 ## Contact Information 
 
