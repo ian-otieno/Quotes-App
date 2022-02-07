@@ -2,7 +2,7 @@
 
 ## Author
 This project was designed on the 6/2/2022 <br>By [Ian-Otieno](https://github.com/ian-otieno)
-## QuotesApp
+## Project Generation
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.4.
 
@@ -44,6 +44,18 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 * cd Quotes-App
 
 * code . or atom . based on the text editor you have.
+
+## Behaviour Driven Development (BDD)
+| Input                    	| Ouput                                                                                        	|
+|--------------------------	|----------------------------------------------------------------------------------------------	|
+|User clicks Show Quotes    | Quote details are diplayed including authtor name, quote, upvote, downvote and a delete button.  |
+|User enters details for posting a quote in the form fields | quote form displays all quote details.  |
+| User clicks Add Quote    	| The quote is added  with Name, Author, Quote vote button and delete button information included  	|
+| User Clicks Delete       	| The quote is erased from view                                                                	|
+| User clicks Cancel       	| The main view displays and the quote is not deleted                                          	|
+| User clicks upvote button   	| The upvote button increments the upvote value by 1 on each click  	|
+| User clicks downvote button	| The downvote  decreases the downvote value by 1 on each click 	|
+
 
 ## Technologies Used
 
