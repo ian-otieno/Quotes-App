@@ -58,12 +58,13 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 ## Technologies Used
+1. Angualar CLI
+2. Typescript
+3. JavaScript
+4. HTML 
+5. CSS
+6. Bootstrap
 
-* [HTML5](https://github.com/topics/html5)
-* [CSS](https://github.com/topics/css3)
-* [AngularCLI]
-* markdown
-* [Bootstrap](https://github.com/topics/bootstrap)
 
 ## Known Bugs
 * highlight directive property does not work properly
